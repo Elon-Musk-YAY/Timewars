@@ -1,0 +1,26 @@
+name: Timewars
+version: '${project.version}'
+main: com.akshardesai.timewars.TimeWars
+api-version: 1.18
+depend: []
+commands:
+  fly:
+    description: Fly free
+    usage: /fly
+  gameToggle:
+    description: toggle game state
+    usage: /gameToggle
+  teamChange:
+    description: get team
+    usage: /teamChange
+  play:
+    description: Allows you to join bedwars!
+    usage: /play
+  lobby:
+    description: Allows you to go to the lobby
+    usage: /lobby
+    aliases:
+      - l
+  server:
+    description: Goes to the test server
+    usage: /test
